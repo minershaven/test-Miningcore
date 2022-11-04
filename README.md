@@ -182,7 +182,7 @@ Miningcore -c config.json
 
 ## Supported Currencies
 
-Refer to [this file](https://github.com/oliverw/miningcore/blob/master/src/Miningcore/coins.json) for a complete list.
+Refer to [this file](https://github.com/minershaven/PMP-Miningcore/blob/master/src/Miningcore/coins.json) for a complete list.
 
 ## Caveats
 
