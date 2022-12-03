@@ -1328,6 +1328,38 @@
         "explorerTxLink": "https://groestlsight.groestlcoin.org/tx/{0}",
         "explorerAccountLink": "https://groestlsight.groestlcoin.org/address/{0}"
     },
+    "gspcoin": {
+        "name": "Gsp Coin",
+        "canonicalName": "GspCoin",
+        "symbol": "GSPC",
+        "family": "bitcoin",
+        "website": "https://coin.globalsocialpost.com/",
+        "twitter": "https://twitter.com/gspcoin",
+        "discord": "https://discord.gg/Anh2sr4txV",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "foundersRewardAddress": [
+            "GZBNAiLokyYvSwNLftReXuYbvdmzNoorGj"
+        ],
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.globalsocialpost.com/block/$height$",
+        "explorerTxLink": "https://explorer.globalsocialpost.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.globalsocialpost.com/address/{0}"
+    },      
     "help-the-homeless": {
         "name": "Help The Homeless",
         "symbol": "HTH",
